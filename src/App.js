@@ -10,12 +10,12 @@ ZoomMtg.prepareJssdk();
 function App() {
 
   // setup your signature endpoint here: https://github.com/zoom/websdk-sample-signature-node.js
-  var signatureEndpoint = ''
-  var apiKey = ''
-  var meetingNumber = '123456789'
+  var signatureEndpoint = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOm51bGwsImlzcyI6Ik8yWG9RTi1iVHNHYmljcUhVOG5zR0EiLCJleHAiOjI1NTQ0Mzk0MDAsImlhdCI6MTYyMDk4NTU5M30.xEN394VV1OFIroNMoZwa9EroLobpyLquT1iPs-T6_iY'
+  var apiKey = 'O2XoQN-bTsGbicqHU8nsGA'
+  var meetingNumber = '9340678820'
   var role = 0
   var leaveUrl = 'http://localhost:3000'
-  var userName = 'React'
+  var userName = 'student'
   var userEmail = ''
   var passWord = ''
 
